@@ -4,7 +4,6 @@ from hassapi import Hass
 import configparser
 import os
 
-
 config = configparser.ConfigParser()
 config.read(os.path.expanduser("~/.hass"))
 
